@@ -20,13 +20,37 @@ It automatically assigns downloads to unique folders (e.g., `Musicas Baixadas`, 
 - 🍪 **Cookie-Based Authentication**  
   Supports `youtube_cookies.txt` to bypass common YouTube 403 Forbidden issues.
 
-- 💤 **Human-Like Download Behavior**  
-  Optional rate limiting and sleep intervals to reduce throttling.
-
 - 📂 **Organizes Your Library Automatically**  
   Everything is saved neatly and consistently without overwriting previous sessions.
 
 ---
+
+## 🚀 How to Use
+
+Using the downloader is extremely simple:
+
+1. Run the script:
+
+```bash
+python downloader.py
+```
+
+2. When prompted, paste **any YouTube or SoundCloud link**:
+
+* 🎵 Single tracks
+* 🎧 Full playlists
+* 🌀 DJ mixes
+
+3. The tool will automatically:
+
+* Detect or create a folder like `Musicas Baixadas`, `Musicas Baixadas 2`, etc.
+* Lock the folder so no other instance writes to it
+* Download the audio in the best possible quality
+* Convert everything to **320kbps MP3**
+* Save the final files directly inside the chosen folder
+
+No extra configuration needed — just run, paste the link, and the music appears in the folder.
+
 
 ## 📦 Requirements
 
