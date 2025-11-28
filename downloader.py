@@ -1,4 +1,4 @@
-cleimport yt_dlp
+import yt_dlp
 import os
 import time
 

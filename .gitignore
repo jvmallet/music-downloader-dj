@@ -1,0 +1,17 @@
+# Pastas com músicas baixadas
+Musicas Baixadas*/
+Musicas Baixadas*/
+
+# Arquivo de cookies (dados sensíveis)
+youtube_cookies.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambientes virtuais
+venv/
+.env/
+.env.*/
